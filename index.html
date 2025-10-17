@@ -5,7 +5,73 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>17-10-2025 work</title>
     </head>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        #main {
+            width: 100%;
+            height: 100vh;
+            background-color: teal;
+            padding-top: 150px;
+        }
+        .rectangle {
+            width: 40%;
+            height: 70%;
+            background-color: white;
+            margin: auto;
+            position: relative;
+        }
+        .box1 {
+            width: 50%;
+            height: 50%;
+            background-color: yellow;
+            position: absolute;
+            border-bottom-left-radius: 100%;
+            border-top-right-radius: 100%;
+        }
+        .box2 {
+            width: 50%;
+            height: 50%;
+            background-color: orange;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            border-top-left-radius: 100%;
+            border-bottom-right-radius: 100%;
+        }
+        .box3{
+            width: 50%;
+            height: 50%;
+            background-color: crimson;
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+        }
+        .box4 {
+            width: 50%;
+            height: 50%;
+            background-color: blueviolet;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+        }
+    </style>
     <body>
-        
+        <div id="main">
+            <div class="rectangle">
+                <div class="box1"></div>
+                <div class="box2"></div>
+                <div class="box3"></div>
+                <div class="box4"></div>
+            </div>
+        </div>
     </body>
 </html>
